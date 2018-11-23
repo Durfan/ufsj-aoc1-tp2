@@ -1,12 +1,12 @@
-Saída				R-format		Lw 		Sw 		Beq
+Saída			R-format		Lw 		Sw 		Beq
 
-RegDest			1				 0		 X		 X
+RegDest			1				0		X		X
 ALUSrc			0				1		1		0
 MemToReg		0				1		X		X
-RegWrite			1				1		0		0
+RegWrite		1				1		0		0
 MemRead			0				1		0		0
 MemWrite		0				0		1		0
-Branch				0				0		0		1
+Branch			0				0		0		1
 ALUOp1			1				0		0		0
 ALUOp2			0				0		0		1
 
